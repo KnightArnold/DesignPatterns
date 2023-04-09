@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{566DF389-5B98-4AB3-963C-04D24F95FDC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{691A1381-3BB6-4F8B-B159-0E67F4A52FE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter.Tests", "Structural\Adapter.Tests\Adapter.Tests.csproj", "{6CC96B0D-CF40-49D0-9EC1-CDEF7C33AB12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{691A1381-3BB6-4F8B-B159-0E67F4A52FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691A1381-3BB6-4F8B-B159-0E67F4A52FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691A1381-3BB6-4F8B-B159-0E67F4A52FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691A1381-3BB6-4F8B-B159-0E67F4A52FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC96B0D-CF40-49D0-9EC1-CDEF7C33AB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC96B0D-CF40-49D0-9EC1-CDEF7C33AB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC96B0D-CF40-49D0-9EC1-CDEF7C33AB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC96B0D-CF40-49D0-9EC1-CDEF7C33AB12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{691A1381-3BB6-4F8B-B159-0E67F4A52FE9} = {566DF389-5B98-4AB3-963C-04D24F95FDC9}
+		{6CC96B0D-CF40-49D0-9EC1-CDEF7C33AB12} = {566DF389-5B98-4AB3-963C-04D24F95FDC9}
+	EndGlobalSection
+EndGlobal
